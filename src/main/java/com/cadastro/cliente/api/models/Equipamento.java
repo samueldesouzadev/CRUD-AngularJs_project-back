@@ -5,8 +5,6 @@ import java.util.Date;
 import javax.persistence.*;
 
 import lombok.Data;
-import org.hibernate.annotations.Cascade;
-import org.hibernate.annotations.CascadeType;
 
 @Entity
 @Data
@@ -26,7 +24,6 @@ public class Equipamento implements Serializable {
 
     private Date dataDesativacao;
 
-    @OneToOne(orphanRemoval = true)
-    @Cascade(CascadeType.ALL)
+    @OneToOne(cascade = CascadeType.ALL)
     private Contato contato = new Contato();
 }
