@@ -1405,7 +1405,7 @@
     <tags>View</tags>
     <tags>categoryTag:Mylyn</tags>
   </descriptors>
-  <descriptors xmi:id="_A_zLwMmgEemP2bNV8DeDeQ" elementId="org.eclipse.oomph.p2.ui.RepositoryExplorer" label="Repository Explorer" iconURI="platform:/plugin/org.eclipse.oomph.p2.ui/icons/obj16/repository.gif" tooltip="" category="Oomph" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
+  <descriptors xmi:id="_A_zLwMmgEemP2bNV8DeDeQ" elementId="org.eclipse.oomph.p2.ui.RepositoryExplorer" label="com.cadastro.cliente.api.repository Explorer" iconURI="platform:/plugin/org.eclipse.oomph.p2.ui/icons/obj16/repository.gif" tooltip="" category="Oomph" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView">
     <persistedState key="originalCompatibilityViewClass" value="org.eclipse.oomph.p2.internal.ui.RepositoryExplorer"/>
     <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.oomph.p2.ui"/>
     <tags>View</tags>
@@ -1758,7 +1758,7 @@
   <commands xmi:id="__qatOcmfEemP2bNV8DeDeQ" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.search.read.access.in.hierarchy" commandName="Read Access in Hierarchy" description="Search for read references of the selected element in its hierarchy" category="__qV0tcmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qatOsmfEemP2bNV8DeDeQ" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.pull.up" commandName="Pull Up" description="Move members to a superclass" category="__qVNpsmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qatO8mfEemP2bNV8DeDeQ" elementId="org.eclipse.debug.ui.commands.ToggleLineBreakpoint" commandName="Toggle Line Breakpoint" description="Creates or removes a line breakpoint" category="__qUmnsmfEemP2bNV8DeDeQ"/>
-  <commands xmi:id="__qbUQMmfEemP2bNV8DeDeQ" elementId="org.eclipse.mylyn.tasks.ui.command.searchForTask" commandName="Search Repository for Task" category="__qVNrcmfEemP2bNV8DeDeQ"/>
+  <commands xmi:id="__qbUQMmfEemP2bNV8DeDeQ" elementId="org.eclipse.mylyn.tasks.ui.command.searchForTask" commandName="Search com.cadastro.cliente.api.repository for Task" category="__qVNrcmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qbUQcmfEemP2bNV8DeDeQ" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.folding.collapseMembers" commandName="Collapse Members" description="Collapse all members" category="__qUmk8mfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qbUQsmfEemP2bNV8DeDeQ" elementId="org.eclipse.jdt.ui.correction.addImport" commandName="Quick Fix - Add import" description="Invokes quick assist and selects 'Add import'" category="__qV0u8mfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qbUQ8mfEemP2bNV8DeDeQ" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.search.write.access.in.project" commandName="Write Access in Project" description="Search for write references to the selected element in the enclosing project" category="__qV0tcmfEemP2bNV8DeDeQ"/>
@@ -1922,7 +1922,7 @@
   <commands xmi:id="__qflsMmfEemP2bNV8DeDeQ" elementId="org.eclipse.jdt.ui.edit.text.java.search.occurrences.in.file.quickMenu" commandName="Show Occurrences in File Quick Menu" description="Shows the Occurrences in File quick menu" category="__qV0tcmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qflscmfEemP2bNV8DeDeQ" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.goto.next.member" commandName="Go to Next Member" description="Move the caret to the next member of the JavaScript file" category="__qVNrcmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qflssmfEemP2bNV8DeDeQ" elementId="org.eclipse.ui.edit.text.toggleInsertMode" commandName="Toggle Insert Mode" description="Toggle insert mode" category="__qUmkMmfEemP2bNV8DeDeQ"/>
-  <commands xmi:id="__qfls8mfEemP2bNV8DeDeQ" elementId="org.eclipse.egit.ui.RepositoriesViewDelete" commandName="Delete Repository" category="__qV0tsmfEemP2bNV8DeDeQ"/>
+  <commands xmi:id="__qfls8mfEemP2bNV8DeDeQ" elementId="org.eclipse.egit.ui.RepositoriesViewDelete" commandName="Delete com.cadastro.cliente.api.repository" category="__qV0tsmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qfltMmfEemP2bNV8DeDeQ" elementId="org.eclipse.ui.file.closePart" commandName="Close Part" description="Close the active workbench part" category="__qUmm8mfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qfltcmfEemP2bNV8DeDeQ" elementId="org.eclipse.ui.editors.revisions.id.toggle" commandName="Toggle Revision Id Display" description="Toggles the display of the revision id" category="__qUmk8mfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qfltsmfEemP2bNV8DeDeQ" elementId="org.eclipse.ui.project.cleanAction" commandName="Build Clean" description="Discard old built state" category="__qV0s8mfEemP2bNV8DeDeQ"/>
@@ -1975,7 +1975,7 @@
   <commands xmi:id="__qgz1smfEemP2bNV8DeDeQ" elementId="org.eclipse.jdt.ui.edit.text.java.open.editor" commandName="Open Declaration" description="Open an editor on the selected element" category="__qVNrcmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qgz18mfEemP2bNV8DeDeQ" elementId="org.eclipse.ui.window.showContextMenu" commandName="Show Context Menu" description="Show the context menu" category="__qUmm8mfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qgz2MmfEemP2bNV8DeDeQ" elementId="org.eclipse.jdt.ui.edit.text.java.extract.local.variable" commandName="Extract Local Variable" description="Extracts an expression into a new local variable and uses the new local variable" category="__qV0sMmfEemP2bNV8DeDeQ"/>
-  <commands xmi:id="__qgz2cmfEemP2bNV8DeDeQ" elementId="org.eclipse.oomph.p2.ui.ExploreRepository" commandName="Explore Repository" category="__qUmoMmfEemP2bNV8DeDeQ"/>
+  <commands xmi:id="__qgz2cmfEemP2bNV8DeDeQ" elementId="org.eclipse.oomph.p2.ui.ExploreRepository" commandName="Explore com.cadastro.cliente.api.repository" category="__qUmoMmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qgz2smfEemP2bNV8DeDeQ" elementId="org.eclipse.egit.ui.team.InstallLfsLocal" commandName="Enable LFS locally" category="__qV0tsmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qgz28mfEemP2bNV8DeDeQ" elementId="org.eclipse.ltk.ui.refactor.show.refactoring.history" commandName="Open Refactoring History " description="Opens the refactoring history" category="__qV0sMmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qgz3MmfEemP2bNV8DeDeQ" elementId="org.eclipse.jdt.ui.edit.text.java.search.read.access.in.hierarchy" commandName="Read Access in Hierarchy" description="Search for read references of the selected element in its hierarchy" category="__qV0tcmfEemP2bNV8DeDeQ"/>
@@ -1983,7 +1983,7 @@
   <commands xmi:id="__qgz3smfEemP2bNV8DeDeQ" elementId="org.eclipse.ui.views.log.jdt.showinconsole" commandName="&amp;Show In Console" description="Show Stack Trace in Console View" category="__qVNpcmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qgz38mfEemP2bNV8DeDeQ" elementId="org.eclipse.jdt.ui.edit.text.java.push.down" commandName="Push Down" description="Move members to subclasses" category="__qV0sMmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qgz4MmfEemP2bNV8DeDeQ" elementId="org.eclipse.ui.window.nextPerspective" commandName="Next Perspective" description="Switch to the next perspective" category="__qUmm8mfEemP2bNV8DeDeQ"/>
-  <commands xmi:id="__qgz4cmfEemP2bNV8DeDeQ" elementId="org.eclipse.mylyn.tasks.ui.command.UpdateRepositoryConfiguration" commandName="Update Repository Configuration" category="__qVNpcmfEemP2bNV8DeDeQ"/>
+  <commands xmi:id="__qgz4cmfEemP2bNV8DeDeQ" elementId="org.eclipse.mylyn.tasks.ui.command.UpdateRepositoryConfiguration" commandName="Update com.cadastro.cliente.api.repository Configuration" category="__qVNpcmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qgz4smfEemP2bNV8DeDeQ" elementId="org.eclipse.jdt.ui.edit.text.java.search.write.access.in.working.set" commandName="Write Access in Working Set" description="Search for write references to the selected element in a working set" category="__qV0tcmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qgz48mfEemP2bNV8DeDeQ" elementId="org.eclipse.egit.ui.history.ShowVersions" commandName="Open this Version" category="__qVNpcmfEemP2bNV8DeDeQ">
     <parameters xmi:id="__qgz5MmfEemP2bNV8DeDeQ" elementId="org.eclipse.egit.ui.history.CompareMode" name="Compare mode"/>
@@ -2003,7 +2003,7 @@
   <commands xmi:id="__qgz8cmfEemP2bNV8DeDeQ" elementId="org.eclipse.datatools.sqltools.sqleditor.ExecuteAsOneStatementAction" commandName="Execute Selected Text As One Statement" category="__qV0t8mfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qha4MmfEemP2bNV8DeDeQ" elementId="org.eclipse.egit.ui.RepositoriesViewCreateBranch" commandName="Create Branch..." category="__qV0tsmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qha4cmfEemP2bNV8DeDeQ" elementId="org.eclipse.cft.server.ui.internal.actions.pushcommand" commandName="Push" description="Push application" category="__qVNpcmfEemP2bNV8DeDeQ"/>
-  <commands xmi:id="__qha4smfEemP2bNV8DeDeQ" elementId="org.eclipse.datatools.connectivity.commands.addrepository" commandName="New Repository Profile Command" description="Command to create a new repository profile" category="__qVNpcmfEemP2bNV8DeDeQ"/>
+  <commands xmi:id="__qha4smfEemP2bNV8DeDeQ" elementId="org.eclipse.datatools.connectivity.commands.addrepository" commandName="New com.cadastro.cliente.api.repository Profile Command" description="Command to create a new repository profile" category="__qVNpcmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qha48mfEemP2bNV8DeDeQ" elementId="org.eclipse.egit.ui.RepositoriesViewCopyPath" commandName="Copy Path to Clipboard" category="__qV0tsmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qha5MmfEemP2bNV8DeDeQ" elementId="org.eclipse.oomph.setup.editor.perform.startup" commandName="Perform Setup Tasks (Startup)" category="__qVNrMmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qha5cmfEemP2bNV8DeDeQ" elementId="org.eclipse.wst.jsdt.ui.JavaPerspective" commandName="JavaScript" description="Show the JavaScript perspective" category="__qV0uMmfEemP2bNV8DeDeQ"/>
@@ -2201,7 +2201,7 @@
   <commands xmi:id="__qrzBsmfEemP2bNV8DeDeQ" elementId="org.eclipse.ui.edit.text.goto.windowStart" commandName="Window Start" description="Go to the start of the window" category="__qUmk8mfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qrzB8mfEemP2bNV8DeDeQ" elementId="org.eclipse.cft.server.ui.updatepasswordcommand" commandName="Update Password..." description="Update Password" category="__qVNpcmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qrzCMmfEemP2bNV8DeDeQ" elementId="org.eclipse.jdt.ui.correction.addBlock.assist" commandName="Quick Assist - Replace statement with block" description="Invokes quick assist and selects 'Replace statement with block'" category="__qV0u8mfEemP2bNV8DeDeQ"/>
-  <commands xmi:id="__qrzCcmfEemP2bNV8DeDeQ" elementId="org.eclipse.mylyn.commons.ui.command.AddRepository" commandName="Add Repository" category="__qVNosmfEemP2bNV8DeDeQ"/>
+  <commands xmi:id="__qrzCcmfEemP2bNV8DeDeQ" elementId="org.eclipse.mylyn.commons.ui.command.AddRepository" commandName="Add com.cadastro.cliente.api.repository" category="__qVNosmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qrzCsmfEemP2bNV8DeDeQ" elementId="org.eclipse.jdt.ui.edit.text.java.select.enclosing" commandName="Select Enclosing Element" description="Expand selection to include enclosing element" category="__qUmkMmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qrzC8mfEemP2bNV8DeDeQ" elementId="org.eclipse.ant.ui.antShortcut.debug" commandName="Debug Ant Build" description="Debug Ant Build" category="__qUmnsmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qrzDMmfEemP2bNV8DeDeQ" elementId="org.eclipse.wst.jsdt.ui.correction.addNonNLS" commandName="Quick Fix - Add non-NLS tag" description="Invokes quick assist and selects 'Add non-NLS tag'" category="__qUmlcmfEemP2bNV8DeDeQ"/>
@@ -2275,7 +2275,7 @@
   <commands xmi:id="__quPQMmfEemP2bNV8DeDeQ" elementId="org.eclipse.jdt.ui.edit.text.java.surround.with.quickMenu" commandName="Surround With Quick Menu" description="Shows the Surround With quick menu" category="__qV0u8mfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__quPQcmfEemP2bNV8DeDeQ" elementId="org.eclipse.search.ui.openFileSearchPage" commandName="File Search" description="Open the Search dialog's file search page" category="__qV0tcmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__quPQsmfEemP2bNV8DeDeQ" elementId="org.eclipse.jdt.ui.edit.text.java.search.implementors.in.workspace" commandName="Implementors in Workspace" description="Search for implementors of the selected interface" category="__qV0tcmfEemP2bNV8DeDeQ"/>
-  <commands xmi:id="__quPQ8mfEemP2bNV8DeDeQ" elementId="org.eclipse.egit.ui.RepositoriesViewAddRepository" commandName="Add a Git Repository" category="__qV0tsmfEemP2bNV8DeDeQ"/>
+  <commands xmi:id="__quPQ8mfEemP2bNV8DeDeQ" elementId="org.eclipse.egit.ui.RepositoriesViewAddRepository" commandName="Add a Git com.cadastro.cliente.api.repository" category="__qV0tsmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__quPRMmfEemP2bNV8DeDeQ" elementId="org.eclipse.jdt.debug.ui.breakpoint.properties" commandName="Java Breakpoint Properties" description="View and edit the properties for a given Java breakpoint" category="__qUmnsmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__quPRcmfEemP2bNV8DeDeQ" elementId="org.eclipse.jdt.ui.navigate.open.type.in.hierarchy" commandName="Open Type in Hierarchy" description="Open a type in the type hierarchy view" category="__qVNrcmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__quPRsmfEemP2bNV8DeDeQ" elementId="org.eclipse.mylyn.tasks.ui.command.task.clearActiveTime" commandName="Clear Active Time" category="__qUmlsmfEemP2bNV8DeDeQ"/>
@@ -2302,7 +2302,7 @@
   <commands xmi:id="__qu2ScmfEemP2bNV8DeDeQ" elementId="org.eclipse.debug.ui.commands.RunToLine" commandName="Run to Line" description="Resume and break when execution reaches the current line" category="__qUmnsmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qu2SsmfEemP2bNV8DeDeQ" elementId="org.eclipse.wst.jsdt.ui.navigate.java.open.structure" commandName="Open Structure" description="Show the structure of the selected element" category="__qVNrcmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qu2S8mfEemP2bNV8DeDeQ" elementId="org.eclipse.pde.ui.EquinoxLaunchShortcut.debug" commandName="Debug OSGi Framework" description="Debug OSGi Framework" category="__qUmnsmfEemP2bNV8DeDeQ"/>
-  <commands xmi:id="__qu2TMmfEemP2bNV8DeDeQ" elementId="org.eclipse.egit.ui.RepositoriesViewPaste" commandName="Paste Repository Path or URI" category="__qV0tsmfEemP2bNV8DeDeQ"/>
+  <commands xmi:id="__qu2TMmfEemP2bNV8DeDeQ" elementId="org.eclipse.egit.ui.RepositoriesViewPaste" commandName="Paste com.cadastro.cliente.api.repository Path or URI" category="__qV0tsmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qu2TcmfEemP2bNV8DeDeQ" elementId="org.eclipse.ui.edit.text.showChangeRulerInformation" commandName="Show Quick Diff Ruler Tooltip" description="Displays quick diff or revision information for the caret line in a focused hover" category="__qUmk8mfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qu2TsmfEemP2bNV8DeDeQ" elementId="org.eclipse.ui.edit.text.upperCase" commandName="To Upper Case" description="Changes the selection to upper case" category="__qUmk8mfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qu2T8mfEemP2bNV8DeDeQ" elementId="org.eclipse.egit.ui.team.ConfigureFetch" commandName="Configure Upstream Fetch" category="__qV0tsmfEemP2bNV8DeDeQ"/>
@@ -2342,15 +2342,15 @@
   <commands xmi:id="__qvdVcmfEemP2bNV8DeDeQ" elementId="org.eclipse.ui.part.nextPage" commandName="Next Page" description="Switch to the next page" category="__qVNrcmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qvdVsmfEemP2bNV8DeDeQ" elementId="org.eclipse.jdt.ui.edit.text.java.change.type" commandName="Generalize Declared Type" description="Change the declaration of a selected variable to a more general type consistent with usage" category="__qV0sMmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qvdV8mfEemP2bNV8DeDeQ" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.folding.collapseComments" commandName="Collapse Comments" description="Collapse all comments" category="__qUmk8mfEemP2bNV8DeDeQ"/>
-  <commands xmi:id="__qvdWMmfEemP2bNV8DeDeQ" elementId="org.eclipse.egit.ui.RepositoriesViewClone" commandName="Clone a Git Repository" category="__qV0tsmfEemP2bNV8DeDeQ"/>
+  <commands xmi:id="__qvdWMmfEemP2bNV8DeDeQ" elementId="org.eclipse.egit.ui.RepositoriesViewClone" commandName="Clone a Git com.cadastro.cliente.api.repository" category="__qV0tsmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qvdWcmfEemP2bNV8DeDeQ" elementId="org.eclipse.ui.edit.text.clear.mark" commandName="Clear Mark" description="Clear the mark" category="__qUmk8mfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qvdWsmfEemP2bNV8DeDeQ" elementId="org.eclipse.wst.sse.ui.quick_outline" commandName="Quick Outline" description="Show the quick outline for the editor input" category="__qVNrcmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qvdW8mfEemP2bNV8DeDeQ" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.inline" commandName="Inline" description="Inline a constant, local variable or function" category="__qVNpsmfEemP2bNV8DeDeQ"/>
-  <commands xmi:id="__qvdXMmfEemP2bNV8DeDeQ" elementId="org.eclipse.egit.ui.RepositoriesViewRemove" commandName="Remove Repository" category="__qV0tsmfEemP2bNV8DeDeQ"/>
+  <commands xmi:id="__qvdXMmfEemP2bNV8DeDeQ" elementId="org.eclipse.egit.ui.RepositoriesViewRemove" commandName="Remove com.cadastro.cliente.api.repository" category="__qV0tsmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qvdXcmfEemP2bNV8DeDeQ" elementId="org.eclipse.wst.jsdt.ui.PackagesView" commandName="JavaScript Folders" description="Show the Folders view" category="__qVNqMmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qvdXsmfEemP2bNV8DeDeQ" elementId="org.eclipse.ant.ui.openExternalDoc" commandName="Open External Documentation" description="Open the External documentation for the current task in the Ant editor" category="__qV0u8mfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qvdX8mfEemP2bNV8DeDeQ" elementId="com.genuitec.eclipse.inlinesearch.delete.previous" commandName="Delete Previous Word" category="__qV0vcmfEemP2bNV8DeDeQ"/>
-  <commands xmi:id="__qvdYMmfEemP2bNV8DeDeQ" elementId="org.eclipse.egit.ui.RepositoriesViewCreateRepository" commandName="Create a Repository" category="__qV0tsmfEemP2bNV8DeDeQ"/>
+  <commands xmi:id="__qvdYMmfEemP2bNV8DeDeQ" elementId="org.eclipse.egit.ui.RepositoriesViewCreateRepository" commandName="Create a com.cadastro.cliente.api.repository" category="__qV0tsmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qvdYcmfEemP2bNV8DeDeQ" elementId="org.eclipse.jdt.ui.edit.text.java.search.write.access.in.hierarchy" commandName="Write Access in Hierarchy" description="Search for write references of the selected element in its hierarchy" category="__qV0tcmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qvdYsmfEemP2bNV8DeDeQ" elementId="org.eclipse.egit.ui.team.PushTags" commandName="Push Tags..." category="__qV0tsmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qvdY8mfEemP2bNV8DeDeQ" elementId="org.eclipse.egit.ui.ContinueRebase" commandName="Continue Rebase" category="__qV0tsmfEemP2bNV8DeDeQ"/>
@@ -2371,8 +2371,8 @@
   <commands xmi:id="__qvdcsmfEemP2bNV8DeDeQ" elementId="org.eclipse.wst.jsdt.ui.edit.text.java.surround.with.try.catch" commandName="Surround with try/catch Block" description="Surround the selected text with a try/catch block" category="__qUmlcmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qvdc8mfEemP2bNV8DeDeQ" elementId="org.eclipse.mylyn.tasks.ui.command.RefreshRepositoryTasks" commandName="Synchronize Changed" category="__qVNpcmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qvddMmfEemP2bNV8DeDeQ" elementId="org.eclipse.debug.ui.commands.ToggleWatchpoint" commandName="Toggle Watchpoint" description="Creates or removes a watchpoint" category="__qUmnsmfEemP2bNV8DeDeQ"/>
-  <commands xmi:id="__qvddcmfEemP2bNV8DeDeQ" elementId="org.eclipse.equinox.p2.ui.discovery.commands.ShowRepositoryCatalog" commandName="Show Repository Catalog" category="__qVNpcmfEemP2bNV8DeDeQ">
-    <parameters xmi:id="__qvddsmfEemP2bNV8DeDeQ" elementId="org.eclipse.equinox.p2.ui.discovery.commands.RepositoryParameter" name="P2 Repository URI"/>
+  <commands xmi:id="__qvddcmfEemP2bNV8DeDeQ" elementId="org.eclipse.equinox.p2.ui.discovery.commands.ShowRepositoryCatalog" commandName="Show com.cadastro.cliente.api.repository Catalog" category="__qVNpcmfEemP2bNV8DeDeQ">
+    <parameters xmi:id="__qvddsmfEemP2bNV8DeDeQ" elementId="org.eclipse.equinox.p2.ui.discovery.commands.RepositoryParameter" name="P2 com.cadastro.cliente.api.repository URI"/>
   </commands>
   <commands xmi:id="__qvdd8mfEemP2bNV8DeDeQ" elementId="org.eclipse.debug.ui.commands.closeRendering" commandName="Close Rendering" description="Close the selected rendering." category="__qUmnsmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qvdeMmfEemP2bNV8DeDeQ" elementId="org.eclipse.egit.ui.RepositoriesViewOpenInEditor" commandName="Open in Editor" category="__qV0tsmfEemP2bNV8DeDeQ"/>
@@ -2471,8 +2471,8 @@
   <commands xmi:id="__qxSjMmfEemP2bNV8DeDeQ" elementId="org.eclipse.wst.server.debug" commandName="Debug" description="Debug server" category="__qUml8mfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qxSjcmfEemP2bNV8DeDeQ" elementId="org.eclipse.ui.navigate.nextSubTab" commandName="Next Sub-Tab" description="Switch to the next sub-tab" category="__qVNrcmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qxSjsmfEemP2bNV8DeDeQ" elementId="org.eclipse.jdt.ui.edit.text.java.introduce.parameter" commandName="Introduce Parameter" description="Introduce a new method parameter based on the selected expression" category="__qV0sMmfEemP2bNV8DeDeQ"/>
-  <commands xmi:id="__qxSj8mfEemP2bNV8DeDeQ" elementId="org.eclipse.mylyn.tasks.ui.command.addTaskRepository" commandName="Add Task Repository..." category="__qUmlsmfEemP2bNV8DeDeQ">
-    <parameters xmi:id="__qxSkMmfEemP2bNV8DeDeQ" elementId="connectorKind" name="Repository Type"/>
+  <commands xmi:id="__qxSj8mfEemP2bNV8DeDeQ" elementId="org.eclipse.mylyn.tasks.ui.command.addTaskRepository" commandName="Add Task com.cadastro.cliente.api.repository..." category="__qUmlsmfEemP2bNV8DeDeQ">
+    <parameters xmi:id="__qxSkMmfEemP2bNV8DeDeQ" elementId="connectorKind" name="com.cadastro.cliente.api.repository Type"/>
   </commands>
   <commands xmi:id="__qxSkcmfEemP2bNV8DeDeQ" elementId="org.eclipse.eclemma.ui.removeAllSessions" commandName="Remove All Sessions" category="__qUmmcmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qxSksmfEemP2bNV8DeDeQ" elementId="org.eclipse.jdt.debug.ui.localJavaShortcut.run" commandName="Run Java Application" description="Run Java Application" category="__qUmnsmfEemP2bNV8DeDeQ"/>
@@ -2549,7 +2549,7 @@
   <commands xmi:id="__qx5tMmfEemP2bNV8DeDeQ" elementId="org.eclipse.wst.jsdt.ui.correction.splitJoinVariableDeclaration.assist" commandName="Quick Assist - Split/Join variable declaration" description="Invokes quick assist and selects 'Split/Join variable declaration'" category="__qUmlcmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qx5tcmfEemP2bNV8DeDeQ" elementId="org.eclipse.wst.jsdt.ui.correction.assignParamToField.assist" commandName="Quick Assist - Assign parameter to var" description="Invokes quick assist and selects 'Assign parameter to var'" category="__qUmlcmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qx5tsmfEemP2bNV8DeDeQ" elementId="org.eclipse.ltk.ui.refactoring.commands.renameResource" commandName="Rename Resource" description="Rename the selected resource and notify LTK participants." category="__qV0ucmfEemP2bNV8DeDeQ"/>
-  <commands xmi:id="__qx5t8mfEemP2bNV8DeDeQ" elementId="org.eclipse.pde.ui.importFromRepository" commandName="Import Plug-in from a Repository" description="Imports a plug-in from a source repository" category="__qVNpcmfEemP2bNV8DeDeQ"/>
+  <commands xmi:id="__qx5t8mfEemP2bNV8DeDeQ" elementId="org.eclipse.pde.ui.importFromRepository" commandName="Import Plug-in from a com.cadastro.cliente.api.repository" description="Imports a plug-in from a source repository" category="__qVNpcmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qx5uMmfEemP2bNV8DeDeQ" elementId="org.eclipse.egit.ui.team.Rebase" commandName="Rebase on" category="__qV0tsmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qx5ucmfEemP2bNV8DeDeQ" elementId="org.eclipse.mylyn.tasks.ui.command.previousTask" commandName="Previous Task Command" category="__qVNpcmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="__qx5usmfEemP2bNV8DeDeQ" elementId="org.eclipse.ui.file.properties" commandName="Properties" description="Display the properties of the selected item" category="__qUmmsmfEemP2bNV8DeDeQ"/>
@@ -2998,7 +2998,7 @@
   <commands xmi:id="_A95HQMmgEemP2bNV8DeDeQ" elementId="AUTOGEN:::org.eclipse.mylyn.markers.tasks.contribution/org.eclipse.mylyn.ide.ui.actions.focus.markers.tasks" commandName="Focus on Active Task" description="Focus on Active Task" category="__qVNpcmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="_A95uUMmgEemP2bNV8DeDeQ" elementId="AUTOGEN:::org.eclipse.mylyn.markers.bookmarks.contribution/org.eclipse.mylyn.ide.ui.actions.focus.markers.bookmarks" commandName="Focus on Active Task" description="Focus on Active Task" category="__qVNpcmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="_A96VYMmgEemP2bNV8DeDeQ" elementId="AUTOGEN:::org.eclipse.mylyn.java.explorer.contribution/org.eclipse.mylyn.java.actions.focus.packageExplorer" commandName="Focus on Active Task" description="Focus on Active Task (Alt+click to reveal filtered elements)" category="__qVNpcmfEemP2bNV8DeDeQ"/>
-  <commands xmi:id="_A968cMmgEemP2bNV8DeDeQ" elementId="AUTOGEN:::org.eclipse.mylyn.tasks.ui.actions.view/org.eclipse.mylyn.tasks.ui.search.open" commandName="Search Repository..." category="__qVNpcmfEemP2bNV8DeDeQ"/>
+  <commands xmi:id="_A968cMmgEemP2bNV8DeDeQ" elementId="AUTOGEN:::org.eclipse.mylyn.tasks.ui.actions.view/org.eclipse.mylyn.tasks.ui.search.open" commandName="Search com.cadastro.cliente.api.repository..." category="__qVNpcmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="_A97jgMmgEemP2bNV8DeDeQ" elementId="AUTOGEN:::org.eclipse.mylyn.tasks.ui.actions.view/org.eclipse.mylyn.tasks.ui.synchronize.changed" commandName="Synchronize Changed" description="Synchronize Changed" category="__qVNpcmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="_A97jgcmgEemP2bNV8DeDeQ" elementId="AUTOGEN:::org.eclipse.mylyn.tasks.ui.actions.view/org.eclipse.mylyn.tasks.ui.tasks.restore" commandName="Restore Tasks from History..." category="__qVNpcmfEemP2bNV8DeDeQ"/>
   <commands xmi:id="_A98KkMmgEemP2bNV8DeDeQ" elementId="AUTOGEN:::org.eclipse.mylyn.tasks.ui.actions.view/org.eclipse.mylyn.tasks.ui.open.repositories.view" commandName="Show Task Repositories View" description="Show Task Repositories View" category="__qVNpcmfEemP2bNV8DeDeQ"/>

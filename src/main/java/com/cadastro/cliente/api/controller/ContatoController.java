@@ -2,6 +2,7 @@ package com.cadastro.cliente.api.controller;
 
 import java.util.List;
 
+import com.cadastro.cliente.api.mapping.UriMappingConstants;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -19,36 +20,36 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 
 @RestController
-@RequestMapping(value = "/api")
-@Api(value = "API REST Contatos")
 @CrossOrigin(origins = "*")
+@Api(value = "API REST Contatos")
+@RequestMapping(value = UriMappingConstants.Controller.CONTATO)
 public class ContatoController {
 
-	@Autowired
-	ContatoRepository contatoRepository;
+    @Autowired
+    ContatoRepository repository;
 
-	@GetMapping("/contato")
-	@ApiOperation(value = "Retorna uma lista de Contatos")
-	public List<Contato> find() {
-		return contatoRepository.findAll();
-	}
+    @GetMapping(UriMappingConstants.Standard.FINDALL)
+    @ApiOperation(value = "Retorna uma lista de Contatos")
+    public List<Contato> findAll() {
+        return repository.findAll();
+    }
 
-	@PostMapping("/contato")
-	@ApiOperation(value = "Salva um Contato ")
-	public Contato save(@RequestBody Contato contato) {
-		return contatoRepository.save(contato);
-	}
+    @PostMapping(UriMappingConstants.Standard.SAVE)
+    @ApiOperation(value = "Salva um Contato ")
+    public Contato save(@RequestBody Contato contato) {
+        return repository.save(contato);
+    }
 
-	@DeleteMapping("/contato")
-	@ApiOperation(value = "Deleta um Contato")
-	public void delete(@RequestBody Contato contato) {
-		contatoRepository.delete(contato);
-	}
+    @DeleteMapping(UriMappingConstants.Standard.DELETE)
+    @ApiOperation(value = "Deleta um Contato")
+    public void delete(@RequestBody Contato contato) {
+        repository.delete(contato);
+    }
 
-	@PutMapping("/contato")
-	@ApiOperation(value = "Atualiza um Contato")
-	public Contato update(@RequestBody Contato contato) {
-		return contatoRepository.save(contato);
-	}
+    @PutMapping(UriMappingConstants.Standard.EDIT)
+    @ApiOperation(value = "Atualiza um Contato")
+    public Contato edit(@RequestBody Contato contato) {
+        return repository.save(contato);
+    }
 
 }

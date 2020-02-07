@@ -23,47 +23,47 @@ import io.swagger.annotations.ApiOperation;
 
 @RestController
 @CrossOrigin(origins = "*")
-@Api(value = "API REST")
-@RequestMapping(value = UriMappingConstants.Controller.API)
+@Api(value = "API REST CLientes")
+@RequestMapping(value = UriMappingConstants.Controller.CLIENTE)
 public class ClienteController {
 
     @Autowired
-    ClienteRepository clienteRepository;
+    ClienteRepository repository;
 
     @ApiOperation(value = "Lista Clientes")
-    @GetMapping(UriMappingConstants.Cliente.FINDALL)
+    @GetMapping(UriMappingConstants.Standard.FINDALL)
     public List<Cliente> findAll() {
-        return clienteRepository.findAll();
+        return repository.findAll();
     }
 
     @ApiOperation(value = "Salva Cliente")
-    @PostMapping(UriMappingConstants.Cliente.SAVE)
+    @PostMapping(UriMappingConstants.Standard.SAVE)
     public Cliente save(@RequestBody Cliente cliente) {
-        return clienteRepository.save(cliente);
+        return repository.save(cliente);
     }
 
     @ApiOperation(value = "Atualiza Cliente")
-    @PutMapping(UriMappingConstants.Cliente.EDIT)
+    @PutMapping(UriMappingConstants.Standard.EDIT)
     public Cliente update(@RequestBody Cliente cliente) {
-        return clienteRepository.save(cliente);
+        return repository.save(cliente);
     }
 
     @ApiOperation(value = "Deleta Cliente")
-    @DeleteMapping(UriMappingConstants.Cliente.DELETE)
-    public void delete(@PathVariable(value = "id") Long id) {
-        clienteRepository.deleteById(id);
+    @DeleteMapping(UriMappingConstants.Standard.DELETE)
+    public void delete(@RequestBody Cliente cliente) {
+        repository.delete(cliente);
     }
 
     @ApiOperation(value = "Retorna um cliente unico")
-    @GetMapping(UriMappingConstants.Cliente.FINDBYID)
+    @GetMapping(UriMappingConstants.Standard.FINDBYID)
     public Optional<Cliente> findByIdClientes(@PathVariable(value = "id") Long id) {
-        return clienteRepository.findById(id);
+        return repository.findById(id);
     }
 
     @ApiOperation(value = "Retorna lista de clientes (Buscando pelo Nome)")
-    @GetMapping(UriMappingConstants.Cliente.FINDBYNAME)
+    @GetMapping(UriMappingConstants.Standard.FINDBYNAME)
     public List<Cliente> findByNome(@PathVariable(value = "nome") String nome) {
-        return clienteRepository.findByNomeContaining(nome);
+        return repository.findByNomeContaining(nome);
     }
 
 }
